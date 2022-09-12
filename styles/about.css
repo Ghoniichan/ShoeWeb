@@ -1,0 +1,24 @@
+.about{
+    width: 100%;
+    height: 93vh;
+    box-sizing: border-box;
+    display: flex;
+    background-image: linear-gradient(#1b0b36, #7957de);
+    flex-direction: column;
+    align-content: center;
+    padding: 6%;
+}
+.abouttxt{
+    color: white;
+}
+.abouttxt h1{
+    font-size: 7em;
+    margin-left: 13%;
+    margin-bottom: 20px;
+}
+.abouttxt p{
+    font-size: 2em;
+    text-indent: 2em;
+    text-align: justify ;
+    line-height: 1.5em;
+}

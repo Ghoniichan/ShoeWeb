@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Order</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/orders.css">
+        <link rel="stylesheet" href="styles/navbar.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="pictures/finalmoonwalk.png" alt="logo">
+            </div>
+            <input type="text" placeholder="Search" class="searchbar">
+            <div class="buttons">
+            <a href="index.html">HOME</a>
+            
+                <div class="dropdown">
+                    <button class="dropbtn">CATEGORIES 
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                    <a href="Men_shoe.html">MEN's</a>
+                    <a href="womenshoe.html">WOMEN's</a>
+                    <a href="kids.html">KIDS</a>
+                    </div>
+                </div>
+            <a class="activepage" href="order.html">ORDER</a>
+            <a href="about.html">ABOUT</a>
+            </div>
+        </nav>
+
+        <section class="bg">
+            <div class="shoes">
+                <div class="card">
+                    <img src="/pictures/shoes/womens8.png" alt="shoe">
+                    <h1>ROVERS</h1>
+                </div>
+                <div class="card">
+                    <img src="/pictures/shoes/woman4.png" alt="">
+                    <h1>SUMMER LIME</h1>
+                </div>
+            </div>
+            <div class="sctn">
+                <form action="/action_page.php" method="get" target="_blank">
+                    <div class="wrapperfirst">
+                        <div class="title">
+                            <h2 class="titletxt">Sign <font color="white">In</font></h2>    
+                        </div>
+
+                        <div class="form">
+                            <div class="input_field">
+                                <input type="text" class="input" placeholder="Email Address">
+                            </div>
+                            <div class="input_field">
+                                <input type="password" class="input" placeholder="Password">
+                            </div>
+                            <div class="forgotpassword">
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="forgotpassword">Forgot Password</a>
+                            </div>
+                            <br>
+                            <div class="input_field">
+                                <button type="button" class="createbtn">Create Account</button> 
+                                <button type="button" class="signbtn">Sign In</button>
+                            </div>
+                        </div>
+                    </form>
+
+                <form action="/action_page.php" method="get" target="_blank">
+                    <div class="wrapper">
+                        <div class="title">
+                            <h2 class="titletxt">Billing <font style="color: white;">Address</font></h2>
+                        </div>
+        
+                        <div class="form">
+                            <div class="input_field">
+                                
+                                <input type="text" class="input" placeholder="Full Name">
+                                
+                                
+                                <input type="text" class="input" placeholder="Name on Card">
+                            </div>
+                            <div class="input_field">
+                                
+                                <input type="text" class="input" placeholder="Email Address">
+        
+                                
+                                <input type="text" class="input" placeholder="Credit Card Number">
+                            </div>
+                            <div>
+                                
+                                <input type="text" class="input" placeholder="Address">
+        
+                                
+                                <input type="date" class="input" placeholder="Exp Month/Year">
+        
+                                
+                                <input type="number" class="input" placeholder="CVV">
+                            </div>
+                            <div>
+        
+                                <input type="text" class="input" placeholder="City">
+                                <br>
+                                <button type="button" class="btn">Continue to Check Out</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </head>
+</html>

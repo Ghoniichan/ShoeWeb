@@ -1,0 +1,164 @@
+
+section{
+    width: 100%;
+    height: 95vh;
+    padding: 20px 60px 40px 60px;
+    box-sizing: border-box;
+    position: relative;
+    background-image: linear-gradient(#1b0b36, #7957de);
+}
+.home{
+    background-image: url("../pictures/moon.jpg");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+h1{
+    color: white;
+    position: absolute;
+    letter-spacing: 3px;
+}
+
+#brand{
+    font-size: 5em;
+    margin-top: 50px;
+    left: 50%;
+    animation: pageload 2s;
+}
+@keyframes pageload{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.slogan{
+    left: 58%;
+    top: 26%;
+    animation: pageload 7s;
+}
+
+
+@keyframes moveIt1 {
+    0% {background-position: bottom left;}
+    100% {background-position: top right;}
+}
+@keyframes moveIt2 {
+    0% {background-position: center left;}
+    100% {background-position: top right;}
+}
+@keyframes moveIt3 {
+    0% {background-position: bottom center;}
+    100% {background-position: top right;}
+}
+
+.secdef{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 7%;
+}
+.secdef h1{
+    font-size: 3em;
+    transition: 1s;
+}
+.middlesec:hover .secdef h1{
+    transform: translateX(60%);
+}
+
+.upper{
+    height: 60%;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.upper div{
+    box-sizing: border-box  ;
+    border-radius: 5px;
+    width: 25%;
+    height: 100%;
+    box-shadow:  10px 10px 25px #210c41;
+    display: flex;
+    position: relative;
+    background-image: url("../pictures/galaxy.jpg");
+    flex-direction: column;
+    background-size: 800px;
+    cursor: pointer;
+}
+.card1{
+    animation: moveIt1 30s ease-in-out infinite alternate;
+}
+.card2{
+    animation: moveIt2 30s ease-in-out infinite alternate;
+}
+.card3{
+    animation: moveIt3 30s ease-in-out infinite alternate;
+}
+
+.upper div img{
+    height: auto;
+    width: 100%;
+    transition: transform 2s;
+    margin: auto;
+}
+.upper div h1{
+    color: white;
+    align-self: center;
+    font-size: 2em;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 70%;
+} 
+.upper div:hover img{
+    transform: rotateZ(360deg);
+} 
+
+.lowersec{
+    background-image: linear-gradient(#7957de,#1b0b36);
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    position: relative;
+    padding-bottom: 0;
+    padding-top: 39px;
+}
+
+.slideshow{
+    background-image: url(/pictures/shoes/shoeslide.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat-y;
+    animation: moveSlideshow 15s linear infinite alternate;
+    height: 100%;
+    width: 30%;
+    box-shadow:  10px 10px 25px #210c41,
+                -10px -10px 25px #8559c7;
+    margin-left: 75px;
+    transform: translate3d(0, 0, 0);
+}
+@keyframes moveSlideshow {
+    100% {background-position: bottom;}
+}
+
+.lowersectxt{
+    flex: 2;
+}
+.lowersectxt h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 5em;
+}
+.lowersectxt p{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 2em;
+    color: white;
+    text-align: justify;
+    text-indent:100px;
+    margin-right: 7%;
+}
