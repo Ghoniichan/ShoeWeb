@@ -127,7 +127,7 @@ h1{
 }
 
 .slideshow{
-    background-image: url(/pictures/shoes/shoeslide.png);
+    background-image: url("../pictures/shoes/shoeslide.png");
     background-size: cover;
     background-position: top;
     background-repeat: repeat-y;
